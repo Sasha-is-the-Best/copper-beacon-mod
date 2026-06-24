@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "copper-beacon-mod",
+  "version": "1.0-p",
+  "name": "Copper Beacon",
+  "description": "Un beacon che funziona con qualsiasi blocco di rame, anche ossidato e cerato",
+  "authors": ["SushiMan"],
+  "license": "MIT",
+  "icon": "assets/copper-beacon-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.copperbeacon.CopperBeaconMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-api": ">=0.115.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}

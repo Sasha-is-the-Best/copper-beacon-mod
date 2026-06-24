@@ -17,7 +17,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
           
       - name: Build
-        run: ./gradlew build --stacktrace
+        run: ./gradlew build
           
       - name: Upload JAR
         uses: actions/upload-artifact@v4
